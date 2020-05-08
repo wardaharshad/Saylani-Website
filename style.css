@@ -1,0 +1,601 @@
+<style>
+
+*, body{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+    
+label{
+  white-space: pre;
+}
+    
+.icon-bar {
+  width: 100%;
+  background-color: #008ae6;
+  overflow: hidden;
+  font-size: 15px;
+  color: white;
+  padding-top: 7px;
+  display: inline-block;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.icon-button{
+  
+  margin-right: 100px; 
+}
+    
+.top
+{
+  padding: 5px 5px;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.widget
+{
+  text-align: center; 
+  padding-top: 7px;
+}
+
+.icons{
+  margin-left: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.icon-bar a {
+  display: inline-block;
+  margin-right: -50px;
+  text-align: center;
+  padding: 5px 5px;
+  width: 7%;
+  color: white;
+  font-size: 16px;
+}
+    
+img.logo {
+  float: left;
+  display: inline-block;
+  margin-left: 60px;
+}
+    
+.icon-bar a:hover i {
+  background-color: blue;
+  box-shadow: 0;
+  padding: 5px 5px;
+}
+
+*
+{
+	padding: 0;
+	margin: 0;
+}
+body
+{
+	
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.header-nav{
+  border: 1px silid red;
+}
+.nav-item:hover{
+  background-color: #2478F9;
+}
+.dropdown-item:hover{
+  background-color: #2478F9;
+}
+ul li{
+  font-size: 14px;
+  padding: 0 6px 0 6px;
+}
+
+.carousel .carousel-slide {
+  visibility: hidden;
+}
+.carousel:hover .carousel-slide { 
+  visibility: visible; 
+}
+
+.carousel-control.left, .carousel-control.right {
+  background-image: none;
+}
+
+.carousel-control:hover {
+  visibility: visible;
+}
+
+.slider-image
+{
+  width: 1325px;
+  height: 480px;
+}
+
+.green1
+{
+  color: #00ff00;
+}
+
+.blue1
+{
+  color: #3333cc;
+}
+
+.slide-text
+{
+  text-align: center;
+  background-color: #008ae6;
+  color: white;
+  font-size: 14px;
+  padding: 5px;
+  margin-right: 60px;
+  margin-left: 40px;
+}
+
+.text-page
+{
+  background-color: #f2f2f2;
+
+}
+.introduction, .what
+{
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 40px;
+  margin: 0;
+  
+}
+.blue
+{
+  color: #008ae6;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: -63px;
+  padding-bottom: -230px;
+  text-shadow: 1px 1px 1px #008ae6;
+}
+
+.green
+{
+  color: green;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: -63px;
+  padding-bottom: -230px;
+  text-shadow: 1px 1px 1px green;
+}
+
+img.align-center {
+  display: block;
+  margin: 0px auto;
+}
+
+.long-text
+{
+  text-align: justify;
+  font-size: 14.5px;
+  margin-left: 180px;
+  margin-right: 180px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 2em;
+  color: grey;
+}
+
+.value-bar
+{
+  background-color: #2E64FE;
+  color: white;
+  height: 350px;
+  width: 100%;
+  margin: auto;
+  padding-top: 80px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.num
+{
+  font-size: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.icon-name
+{
+  font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.white-text
+{
+  color: white;
+}
+.green-text
+{
+  color: #80FF00;
+}
+
+.box-page
+{
+  background-color: #E6E6E6;
+  
+}
+.boxes-1, .boxes-2
+{
+  background-color: #E6E6E6
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+.sadqa, .welfare, .medical2, .cutlery2, .water, .education2
+{
+  background-color: white;
+  border: 0em;
+  height: 180px;
+  border: none;
+  box-shadow: 2px 2px 15px grey;
+  padding: 15px;
+  width: 310px;
+  color: #0174DF;
+  padding-top: 30px;
+}
+.for-margin
+{
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.for-margin2
+{
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.values
+{
+  background-color: #2E64FE;
+}
+.box-text
+{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #008ae6;
+  font-size: 18px;
+  font-style: 800;
+}
+
+.double-sided
+{
+  margin-left: 90px;
+  margin-right: 80px;
+  color: #008ae6;
+  display: flex;
+  justify-content: space-around;
+}
+
+.side1
+{
+  flex: 2;
+}
+.projects-1, .projects-2
+{
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+  padding-top: 20px;
+  
+}
+.hepatitis, .housing, .it, .tharparkar
+{
+  width: 350px;
+  background-color: #E6E6E6;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  height: 60px;
+  
+}
+.project-icon
+{
+  padding-left: 20px;
+  width: 60px; 
+  height: 40px;
+}
+.project-text
+{
+  position: absolute;
+  text-align: center;
+  margin-left: 50px;
+  font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: 800px;
+  text-shadow: 1px 1px 1px #008ae6;
+}
+
+.side2
+{
+  flex: 1;
+  margin-right: 40px;
+  padding-left: 20px;
+}
+.event-text
+{
+  color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5em;
+  font-size: 15px;
+}
+.htext
+{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 35px;
+  text-shadow: 1px 1px 1px #008ae6;
+}
+.images
+{
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
+.gallery-image
+{
+  width: 220px;
+  height: 220px;
+}
+
+.contact-text
+{
+  color: grey;
+  padding: 6px;
+  margin-left: 90px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  line-height: 2em;
+  display: block;
+}
+
+.footer
+{
+  background-color: black;
+  display: flex;
+}
+
+.links
+{
+  color: grey;
+  margin-left: 120px;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.connect
+{
+  margin-left: 250px;
+  color: grey;
+  font-size: 20px;
+  line-height: 2em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.not-show
+{
+  list-style: none;
+}
+
+.fb{
+  background-color: #008ae6;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.line
+{
+  margin: 0;
+  margin-top: 2px;
+  color: green;
+  font-weight: bold;
+  padding: 2px;
+  text-align: center;
+  display: flex;
+  margin-left: 580px;
+  margin-right: 580px;
+}
+.line1
+{
+  margin-top: 2px;
+  color: green;
+  font-weight: bold;
+}
+
+
+
+
+
+/* MediaQuery */
+
+
+@media only screen and (max-width: 760px)
+{
+  .icons, .col-md-6, .icon-button
+  {
+    width: 100%;
+    display: inline-block;
+    justify-content: center;
+  }
+
+  .icon1
+  {
+    padding: 10px;
+  }
+
+  .icon-bar
+  {
+    display: block;
+  }
+
+  .slide-text
+  {
+    margin: 0;
+    padding: 3px;
+  }
+
+  .slider-image
+  {
+  width: 100%;
+  height: 200px;
+  }
+
+  .long-text
+  {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .introduction, .what
+  {
+    font-size: 33px;
+  }
+
+  .value-bar
+  {
+    padding-top: 80px;
+    padding-bottom: 40px;
+    display: inline-block;
+    justify-content: space-between;
+  }
+
+  .boxes-1, .boxes-2
+  {
+    width: 100%;
+    display: inline-block;
+    justify-content: space-around;
+  }
+
+  .sadqa, .welfare, .medical2, .cutlery2, .water, .education2
+  {
+  width: 100%;
+  height: 190px;
+  }
+
+  .for-margin
+  {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .double-sided
+{
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-block;
+  justify-content: space-between;
+}
+
+.projects-1, .projects-2
+{
+  display: block;
+  justify-content: space-between;
+  
+}
+.hepatitis, .housing, .it, .tharparkar
+{
+  width: 100%;
+  display: block;
+  height: 60px;
+  
+}
+
+.project-text
+{
+  padding-top: 10px;
+  position: absolute;
+  display: inline-block;
+}
+
+.images
+{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.gallery-image
+{
+  width: 300px;
+  height: 220px;
+  padding-bottom: 40px;
+}
+
+.contact-text
+{
+  color: grey;
+  padding: 6px;
+  margin-left: 90px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  line-height: 1em;
+  display: inline-block;
+}
+
+.footer
+{
+  background-color: black;
+  display: block;
+}
+
+.links
+{
+  color: grey;
+  margin-left: 120px;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.connect
+{
+  margin-left: 250px;
+  color: grey;
+  font-size: 20px;
+  line-height: 2em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.fb{
+  background-color: #008ae6;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+
+
+
+  
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+</style>
